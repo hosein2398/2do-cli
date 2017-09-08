@@ -1,13 +1,16 @@
 {
-  "name": "2do",
-  "version": "1.0.0",
+  "name": "2do-cli",
+  "version": "1.0.28",
   "description": "",
-  "main": "2do.js",
+  "main": "./lib/2do.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hosein2398 <hosein2398@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "2do": "./bin/2do.js"
+  },
   "dependencies": {
     "chalk": "^2.1.0",
     "figlet": "^1.2.0",

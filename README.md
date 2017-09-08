@@ -9,12 +9,15 @@ Commnad line todo app.
 Open up any repository that you want to use 2do-cli indside.   
 Then write:  
 `2do`
+2do will start, after that write :
+`init`
+And 2do-cli will generate a 2do.json file in you repo.
 
 #### Adding a file
-To work with 2do-cli you have add a file and then todos related to that.  
-Lets say you have a file named `main.js` and you want to add some todos for this file , to do so (after inializing 2do-cli in you repo) you have to type:  
-`add main.js 'Here is my first todo for main.js' `
-After a while you might know that you want to add another todo for same file , so just use same command like:
+To work with 2do-cli you have add a file and then todos related to that.   
+Lets say you have a file named `main.js` and you want to add some todos for this file , to do so (after inializing 2do-cli in you repo) you have to type:   
+`add main.js 'Here is my first todo for main.js' `  
+After a while you might know that you want to add another todo for same file , so just use same command like:  
 `add main.js 'Here is my second todo for main.js '`
 
 #### Show todo

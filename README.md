@@ -1,5 +1,5 @@
-# 2do-cli
-Commnad line todo app.
+# 2do-cli ![Download-week](https://img.shields.io/npm/dw/2do-cli.svg?style=flat-square)
+Commnad line todo app. 
 
 <div align="center"> 
 <img  src="https://raw.githubusercontent.com/hosein2398/File-Container/master/2do/2do.gif"/>

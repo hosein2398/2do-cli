@@ -1,6 +1,6 @@
 {
   "name": "2do-cli",
-  "version": "1.1.0",
+  "version": "1.0.29",
   "description": "",
   "main": "./lib/2do.js",
   "scripts": {
@@ -8,10 +8,6 @@
   },
   "author": "Hosein2398 <hosein2398@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hosein2398/2do-cli"
-  },
   "bin": {
     "2do": "./bin/2do.js"
   },

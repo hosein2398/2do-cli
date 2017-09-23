@@ -65,3 +65,12 @@ And if you want to remove only second todo of this file you go like:
 delete main.js 2
 ```  
 Above command will remove second todo of main.js .  
+
+---
+
+### Version
+To get current version just type :
+```
+version
+``` 
+

@@ -1,6 +1,6 @@
 {
   "name": "2do-cli",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "2do inside you command line",
   "main": "./lib/2do.js",
   "scripts": {

@@ -1,4 +1,4 @@
-# 2do-cli ![Download-week](https://img.shields.io/npm/dw/2do-cli.svg?style=flat-square)
+# 2do-cli [![Build Status](https://travis-ci.org/hosein2398/2do-cli.svg?branch=master)](https://travis-ci.org/hosein2398/2do-cli) ![Download-week](https://img.shields.io/npm/dw/2do-cli.svg?style=flat-square)
 Commnad line todo app. 
 
 <div align="center"> 

@@ -11,6 +11,14 @@ npm i -g 2do-cli
 ```
 
 ## Usage
+- [Initializing](#initializing)
+- [Adding a file](#adding-a-file)
+- [Show todo](#show-todo)
+- [Listing](#listing)
+- [Removing](#removing)
+
+---
+
 ### Initializing 
 Open up any repository that you want to use 2do-cli indside.   
 Then write:  
@@ -68,7 +76,7 @@ Above command will remove second todo of main.js .
 
 ---
 
-### Version
+## Version
 To get current version just type :
 ```
 version

@@ -4,7 +4,9 @@
   "description": "2do inside you command line",
   "main": "./lib/2do.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava -v test/test.js"
+    "test": "./node_modules/.bin/ava -v test/test.js",
+    "lint": "./node_modules/.bin/eslint ./lib/2do.js",
+    "beatify" : "./node_modules/.bin/eslint ./lib/2do.js --fix"
   },
   "author": "Hosein2398 <hosein2398@gmail.com>",
   "license": "MIT",

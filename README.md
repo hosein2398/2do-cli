@@ -21,11 +21,11 @@ npm i -g 2do-cli
 
 ### Initializing 
 Open up any repository that you want to use 2do-cli indside.   
-Then write:  
+Then type:  
 ```
 2do
 ```  
-2do will start, after that write :  
+2do-cli will start, after that write :  
 ```
 init
 ```   
@@ -35,11 +35,11 @@ And 2do-cli will generate a 2do.json file in you repo.
 
 ### Adding a file
 To work with 2do-cli you have add a file and then todos related to that.   
-Lets say you have a file named `main.js` and you want to add some todos for this file , to do so (after inializing 2do-cli in you repo) you have to type:   
+Lets say you have a file named `main.js` and you want to add some todos for this file, to do so (after inializing 2do-cli in you repo) you have to type:   
 ```
 add main.js 'Here is my first todo for main.js' 
 ```  
-After a while you might know that you want to add another todo for same file , so just use same command like:  
+After a while you might know that you want to add another todo for same file, so just use same command like:  
 ```
 add main.js 'Here is my second todo for main.js '
 ```  
@@ -56,7 +56,7 @@ and all todos of that file will appear.
 ---
 
 ### Listing 
-You can see all of files whitch have todos in current directory  and select any one that you want by typing :  
+You can list all of files which have todos in current directory and select any one that you want by typing :  
 ```
 list
 ```  
@@ -64,7 +64,7 @@ list
 ---
 
 ### Removing
-You can remove a file , which removes all of it's todos also , or you can only remove a todo of a file , to do first one you just write:  
+You can remove a file, which removes all of it's todos too, or you can only remove a todo of a file, to do prior one you just write:  
 ```
 delete main.js
 ```  
@@ -76,7 +76,7 @@ Above command will remove second todo of main.js .
 
 ---
 
-## Version
+### Version
 To get current version just type :
 ```
 version

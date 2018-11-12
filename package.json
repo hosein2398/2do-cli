@@ -4,9 +4,9 @@
   "description": "2do inside you command line",
   "main": "./lib/2do.js",
   "scripts": {
-    "test": "./node_modules/.bin/ava -v test/test.js",
-    "lint": "./node_modules/.bin/eslint ./lib/2do.js",
-    "beatify" : "./node_modules/.bin/eslint ./lib/2do.js --fix"
+    "test": "ava -v test/test.js",
+    "lint": "eslint ./lib/2do.js",
+    "beatify": "eslint ./lib/2do.js --fix"
   },
   "author": "Hosein2398 <hosein2398@gmail.com>",
   "license": "MIT",
@@ -17,6 +17,12 @@
   "bin": {
     "2do": "./bin/2do.js"
   },
+  "keywords": [
+    "todo",
+    "task",
+    "2do",
+    "console"
+  ],
   "dependencies": {
     "chalk": "^2.1.0",
     "cli-table3": "^0.5.0",

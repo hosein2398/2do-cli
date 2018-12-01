@@ -3,7 +3,10 @@ Commnad line todo app.
 
 <div align="center"> 
 <img  src="https://raw.githubusercontent.com/hosein2398/File-Container/master/2do/drawing.png"/> 
+</div>
 
+### Demo
+<div align="center"> 
 <img  src="https://raw.githubusercontent.com/hosein2398/File-Container/master/2do/2do_new.gif"/>
 </div>
 

@@ -1,15 +1,14 @@
 {
-    "main.js": {
-        "1": {
-            "title": "This file is only for tests"
-        },
-        "2": {
-            "title": "how are you?"
-        }
-    },
-    "somefile.py": {
-        "1": {
-            "title": "no noo"
-        }
+  "add.js": {
+    "1": {
+      "title": "throw error when message is not set when adding a file to prevent mistakes",
+      "status": "undone"
     }
+  },
+  "list.js": {
+    "1": {
+      "title": "should remove testMode param in future",
+      "status": "undone"
+    }
+  }
 }

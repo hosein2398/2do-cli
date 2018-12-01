@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-var todo = require('../lib/2do.js').todoMain;
+const todo = require('../lib/2do.js').todoMain;
 
 todo();

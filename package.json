@@ -1,12 +1,14 @@
 {
   "name": "2do-cli",
   "version": "1.1.5",
-  "description": "2do inside you command line",
+  "description": "2do inside your command line",
   "main": "./lib/2do.js",
   "scripts": {
-    "test": "ava -v test/test.js",
-    "lint": "eslint ./lib/2do.js",
-    "beautify": "eslint ./lib/2do.js --fix"
+    "test": "cd ./test && tap ./*.js",
+    "test:cov": "cd ./test && tap ./*.js --cov",
+    "test:snap": "cd ./test && TAP_SNAPSHOT=1 tap ./*.js",
+    "lint": "eslint ./lib/*.js",
+    "lint:fix": "eslint ./*/*.js --fix"
   },
   "author": "Hosein2398 <hosein2398@gmail.com>",
   "license": "MIT",
@@ -25,16 +27,16 @@
   ],
   "dependencies": {
     "chalk": "^2.1.0",
-    "cli-table3": "^0.5.0",
+    "cli-table3": "^0.5.1",
     "colors": "^1.3.2",
     "figlet": "^1.2.0",
     "inquirer": "^3.2.3",
     "vorpal": "^1.12.0"
   },
   "devDependencies": {
-    "ava": "^0.24.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-plugin-import": "^2.13.0"
+    "eslint-plugin-import": "^2.13.0",
+    "tap": "^12.1.0"
   }
 }

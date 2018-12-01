@@ -40,7 +40,7 @@ And 2do-cli will generate a 2do.json file in you repo.
 
 ### Adding a file
 To work with 2do-cli you have add a file and then todos related to that.   
-Lets say you have a file named `main.js` and you want to add some todos for this file, to do so (after inializing 2do-cli in you repo) you have to type:   
+Lets say you have a file named `main.js` and you want to add some todos for this file, to do so (after inializing 2do-cli in your repo) you have to type:   
 ```
 add main.js 'Here is my first todo for main.js' 
 ```  
@@ -61,7 +61,7 @@ and all todos of that file will appear.
 ---
 
 ### Listing 
-You can list all of files which have todos in current directory and select any one that you want by typing :  
+You can list all of files which have todos in current directory and select any one that you want, by typing :  
 ```
 list
 ```  

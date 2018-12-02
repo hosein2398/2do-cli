@@ -14,6 +14,10 @@ Commnad line todo app.
 ```
 npm i -g 2do-cli
 ```
+Or if using Yarn:
+```
+yarn global add 2do-cli
+```
 
 ## Usage
 - [Initializing](#initializing)

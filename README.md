@@ -19,6 +19,7 @@ npm i -g 2do-cli
 - [Initializing](#initializing)
 - [Adding a file](#adding-a-file)
 - [Show todo](#show-todo)
+- [Check todo](#check-todo)
 - [Listing](#listing)
 - [Removing](#removing)
 
@@ -57,6 +58,16 @@ Now if you want to see all todos of `main.js` you simply write:
 show main.js
 ```   
 and all todos of that file will appear.  
+
+---
+
+### Check todo
+So what if you want to know you have completed a todo or not. There is default `status` field for every todo,
+and it's value is set to `undone` by default. If you want to change it so that you know your todo is done:
+```
+check main.js 4
+```   
+This will set status of fourth todo of main.js to `done`.  
 
 ---
 
